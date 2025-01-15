@@ -1,0 +1,23 @@
+{
+    "userId": "test123",
+    "answers": [
+        {
+            "questionId": 1,
+            "questionText": "Şu anda kendini nasıl hissediyorsun?",
+            "answer": "İyi ve pozitif hissediyorum",
+            "score": 4
+        },
+        {
+            "questionId": 2,
+            "questionText": "Günün en keyifli anı hangisiydi?",
+            "answer": "Güzel bir an yaşadım ve beni mutlu etti",
+            "score": 4
+        },
+        {
+            "questionId": 3,
+            "questionText": "Şu anda ruh halini hangi renk temsil ederdi?",
+            "answer": "Açık mavi (huzurlu ve sakin)",
+            "score": 4
+        }
+    ]
+} 

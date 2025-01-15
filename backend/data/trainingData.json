@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Hayatımdan çok memnunum, her şey mükemmel gidiyor.",
+    "sentiment": "pozitif",
+    "category": "Genel",
+    "score": 4.666666666666667
+  },
+  {
+    "text": "İşimde başarılı projeler yürütüyorum ve takdir görüyorum.",
+    "sentiment": "pozitif",
+    "category": "İş",
+    "score": 4.666666666666667
+  },
+  {
+    "text": "Hayat normal seyrinde devam ediyor.",
+    "sentiment": "nötr",
+    "category": "Genel",
+    "score": 3
+  },
+  {
+    "text": "İşler her zamanki gibi, özel bir durum yok.",
+    "sentiment": "nötr",
+    "category": "İş",
+    "score": 3
+  },
+  {
+    "text": "Son zamanlarda hiç iyi hissetmiyorum, her şey kötü gidiyor.",
+    "sentiment": "negatif",
+    "category": "Genel",
+    "score": 1.3333333333333333
+  },
+  {
+    "text": "İşte sorunlar yaşıyorum ve stres altındayım.",
+    "sentiment": "negatif",
+    "category": "İş",
+    "score": 1.3333333333333333
+  }
+]

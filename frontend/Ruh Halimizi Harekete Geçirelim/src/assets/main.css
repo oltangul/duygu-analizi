@@ -1,0 +1,268 @@
+/* Global CSS */
+:root {
+  /* Ana Renkler */
+  --primary-color: #04192B;
+  --primary-hover: #062942;
+  --accent-color: #EFC811;
+  --accent-hover: #d4b00f;
+  
+  /* Arka Plan Renkleri */
+  --bg-white: #F5F5F5;
+  --bg-light: #ffffff;
+  --bg-primary: #04192B;
+  --bg-gradient: linear-gradient(135deg, #04192B 0%, #062942 100%);
+  
+  /* Metin Renkleri */
+  --text-primary: #000000;
+  --text-secondary: #333333;
+  --text-white: #F5F5F5;
+  
+  /* Sınır ve Gölge Renkleri */
+  --border-color: #e0e0e0;
+  --shadow-color: rgba(4, 25, 43, 0.1);
+  
+  /* RGB Değerleri (rgba için) */
+  --primary-rgb: 4, 25, 43;
+  --accent-rgb: 239, 200, 17;
+  
+  /* Gölgeler */
+  --shadow-sm: 0 2px 4px var(--shadow-color);
+  --shadow-md: 0 4px 8px var(--shadow-color);
+  --shadow-lg: 0 8px 16px var(--shadow-color);
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  
+  /* Geçiş Efektleri */
+  --transition-normal: all 0.3s ease;
+  --transition-slow: all 0.5s ease;
+  
+  /* Z-index Katmanları */
+  --z-header: 1000;
+  --z-modal: 2000;
+  --z-tooltip: 3000;
+  
+  /* Boşluklar */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* Container Genişlikleri */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+}
+
+/* Reset ve Temel Stiller */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-white);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 64px; /* Navbar için alan */
+  overflow-x: hidden;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+/* Tipografi */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+/* Linkler */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition-normal);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+/* Butonlar */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Form Elemanları */
+input, textarea, select {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-light);
+  color: var(--text-primary);
+  transition: var(--transition-normal);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.1);
+}
+
+/* Responsive Medya Sorguları */
+@media (max-width: 1280px) {
+  .container {
+    max-width: var(--container-lg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: var(--container-md);
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: var(--container-sm);
+  }
+
+  body {
+    padding-top: 56px; /* Mobil navbar için */
+  }
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+}
+
+/* Buton Stilleri */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: var(--transition-normal);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--text-white);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.btn-accent {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  border: none;
+}
+
+.btn-accent:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  background: var(--primary-color);
+  color: var(--text-white);
+  transform: translateY(-2px);
+}
+
+/* Kart Stilleri */
+.card {
+  background: var(--bg-light);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-normal);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Animasyon Sınıfları */
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

@@ -1,0 +1,288 @@
+{
+  "vocabulary": [
+    "hayatımdan",
+    "çok",
+    "memnunum",
+    "her",
+    "şey",
+    "mükemmel",
+    "gidiyor",
+    "i̇şimde",
+    "başarılı",
+    "projeler",
+    "yürütüyorum",
+    "ve",
+    "takdir",
+    "görüyorum",
+    "hayat",
+    "normal",
+    "seyrinde",
+    "devam",
+    "ediyor",
+    "i̇şler",
+    "zamanki",
+    "gibi",
+    "özel",
+    "bir",
+    "durum",
+    "yok",
+    "son",
+    "zamanlarda",
+    "hiç",
+    "iyi",
+    "hissetmiyorum",
+    "kötü",
+    "i̇şte",
+    "sorunlar",
+    "yaşıyorum",
+    "stres",
+    "altındayım"
+  ],
+  "sentimentScores": {
+    "hayatımdan": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "çok": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "memnunum": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "her": {
+      "pozitif": 1,
+      "nötr": 1,
+      "negatif": 1
+    },
+    "şey": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "mükemmel": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "gidiyor": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "i̇şimde": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "başarılı": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "projeler": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "yürütüyorum": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "ve": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "takdir": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "görüyorum": {
+      "pozitif": 1,
+      "nötr": 0,
+      "negatif": 0
+    },
+    "hayat": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "normal": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "seyrinde": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "devam": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "ediyor": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "i̇şler": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "zamanki": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "gibi": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "özel": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "bir": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "durum": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "yok": {
+      "pozitif": 0,
+      "nötr": 1,
+      "negatif": 0
+    },
+    "son": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "zamanlarda": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "hiç": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "iyi": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "hissetmiyorum": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "kötü": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "i̇şte": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "sorunlar": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "yaşıyorum": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "stres": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    },
+    "altındayım": {
+      "pozitif": 0,
+      "nötr": 0,
+      "negatif": 1
+    }
+  },
+  "categoryPatterns": {
+    "Genel": {
+      "pozitif": [
+        "hayatımdan",
+        "çok",
+        "memnunum",
+        "her",
+        "şey",
+        "mükemmel",
+        "gidiyor"
+      ],
+      "nötr": [
+        "hayat",
+        "normal",
+        "seyrinde",
+        "devam",
+        "ediyor"
+      ],
+      "negatif": [
+        "son",
+        "zamanlarda",
+        "hiç",
+        "iyi",
+        "hissetmiyorum",
+        "her",
+        "şey",
+        "kötü",
+        "gidiyor"
+      ]
+    },
+    "İş": {
+      "pozitif": [
+        "i̇şimde",
+        "başarılı",
+        "projeler",
+        "yürütüyorum",
+        "ve",
+        "takdir",
+        "görüyorum"
+      ],
+      "nötr": [
+        "i̇şler",
+        "her",
+        "zamanki",
+        "gibi",
+        "özel",
+        "bir",
+        "durum",
+        "yok"
+      ],
+      "negatif": [
+        "i̇şte",
+        "sorunlar",
+        "yaşıyorum",
+        "ve",
+        "stres",
+        "altındayım"
+      ]
+    }
+  }
+}
